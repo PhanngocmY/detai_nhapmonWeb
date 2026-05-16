@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <div class="user-card" id="userCard">
+        <h2>User Information</h2>
+    </div>
+    <script>
+       
+        let user = {
+            "name": "Nguyễn Thị Trang",
+            "age": 20,
+            "email": "dh52302049@studnt.stu.edu.vn",
+            "address": "GiaLai"
+        };
+    
+        // hien thi len
+        let userCard = document.getElementById("userCard");
+    
+        // cai nay giong tostring
+        userCard.innerHTML += 
+            "<p><b>Name:</b> "+user.name+"</p>"+
+            "<p><b>Age:</b> "+user.age+"</p>"+
+            "<p><b>Email:</b> "+user.email+"</p>"+
+            "<p><b>Address:</b> "+user.address+"</p>"
+        ;
+    </script>
+</body>
+</html>

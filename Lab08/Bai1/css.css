@@ -1,0 +1,36 @@
+
+      
+/* cai nut qua trai phai */
+        .prev, .next{
+            position:absolute;
+            top:50%;
+            transform:translateY(-50%);
+            font-size:30px;
+            font-weight: bold;
+            background:rgba(0,0,0,0.5);
+            color:white;
+            border:none;
+            padding:10px 15px;
+            cursor:pointer;
+        }
+/* nut trai */
+        .prev{
+            left:10px;
+        }
+/* nut phai */
+        .next{
+            right:10px;
+        }
+/* may cai nut cham cham */
+        .dot{
+            width:25px;
+            height:25px;
+            border-radius:50%;
+            background:pink;
+            display:inline-block;
+            /* nam ngang _ tai cho do khong di chuyen */
+            margin:5px;
+            cursor:pointer;
+        }
+
+  
